@@ -1,0 +1,418 @@
+@CHARSET "UTF-8";
+/**
+ * @desc: 发财鱼2.0组件共用样式
+ * 		  1.基础样式;
+ *		  2.共用组件样式 
+ */
+ 
+/* ========================== start 共用基础样式  ========================== */
+/* 文字样式 */
+.f12 {
+	font-size: 12px;
+}
+.f14 {
+	font-size: 14px;
+}
+.f16 {
+	font-size: 16px;
+}
+.f18 {
+	font-size: 18px;
+}
+.f20 {
+	font-size: 20px;
+}
+.fb {
+	font-weight: bold;
+}
+.fn {
+	font-weight: normal;
+}
+.t2 {
+	text-indent: 2em;
+}
+.tl {
+	text-align: left;
+}
+.tc {
+	text-align: center;
+}
+.tr {
+	text-align: right;
+}
+
+
+/* 浮动 */
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after { 
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden; 
+} 
+.clearfix {
+	*zoom: 1;
+}
+
+
+/* 隐藏显示 */
+.block {
+	display: block;
+}
+.inlineBlock {
+	display: inline-block;
+}
+.none {
+	display: none;
+}
+
+/* 设置位置 */
+.vm {
+	vertical-align: middle;
+}
+
+/* 外边距 */
+.m5 {
+	margin: 5px;
+}
+.m10 {
+	margin: 10px;
+}
+.m15 {
+	margin: 15px;
+}
+.m30 {
+	margin: 30px;
+}
+.mt5 {
+	margin-top: 5px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mt15 {
+	margin-top: 15px;
+}
+.mt20 {
+	margin-top: 20px;
+}
+.mt30 {
+	margin-top: 30px;
+}
+.mt40 {
+	margin-top: 40px;
+}
+.mt50 {
+	margin-top: 50px;
+}
+.mt60{
+	margin-top: 60px;
+}
+.mb5 {
+	margin-bottom: 5px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.mb15 {
+	margin-bottom: 15px;
+}
+.mb20 {
+	margin-bottom: 20px;
+}
+.mb30 {
+	margin-bottom: 30px;
+}
+.mb40 {
+	margin-bottom: 40px;
+}
+.mb50 {
+	margin-bottom: 50px;
+}
+.mb60 {
+	margin-bottom:60px;
+}
+.ml5 {
+	margin-left: 5px;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.ml15 {
+	margin-left: 15px;
+}
+.ml20 {
+	margin-left: 20px;
+}
+.ml30 {
+	margin-left: 30px;
+}
+.ml40{
+	margin-left:40px;
+}
+.ml50 {
+	margin-left: 50px;
+}
+.mr5 {
+	margin-right: 5px;
+}
+.mr10 {
+	margin-right: 10px;
+}
+.mr15 {
+	margin-right: 15px;
+}
+.mr20 {
+	margin-right: 20px;
+}
+.mr30 {
+	margin-right: 30px;
+}
+.mr40 {
+	margin-right: 40px;
+}
+.mr50 {
+	margin-right: 50px;
+}
+
+
+/* 内边距 */
+.p5 {
+	padding: 5px;
+}
+.p10 {
+	padding: 10px;
+}
+.p15 {
+	padding: 15px;
+}
+.p20 {
+	padding: 20px;
+}
+.p30 {
+	padding: 30px;
+}
+.pt5 {
+	padding-top: 5px;
+}
+.pt7 {
+	padding-top: 7px;
+}
+.pt10 {
+	padding-top: 10px;
+}
+.pt15 {
+	padding-top: 15px;
+}
+.pt20 {
+	padding-top: 20px;
+}
+.pt30 {
+	padding-top: 30px;
+}
+.pt50 {
+	padding-top: 50px;
+}
+.pb5 {
+	padding-bottom: 5px;
+}
+.pb10 {
+	padding-bottom: 10px;
+}
+.pb15 {
+	padding-bottom: 15px;
+}
+.pb20 {
+	padding-bottom: 20px;
+}
+.pb30 {
+	padding-bottom: 30px;
+}
+.pb50 {
+	padding-bottom: 50px;
+}
+.pl5 {
+	padding-left: 5px;
+}
+.pl10 {
+	padding-left: 10px;
+}
+.pl15 {
+	padding-left: 15px;
+}
+.pl20 {
+	padding-left: 20px;
+}
+.pl30 {
+	padding-left: 30px;
+}
+.pl40 {
+	padding-left: 40px;
+}
+.pl50 {
+	padding-left: 50px;
+}
+.pl70 {
+	padding-left: 70px;
+}
+.pr5 {
+	padding-right: 5px;
+}
+.pr10 {
+	padding-right: 10px;
+}
+.pr15 {
+	padding-right: 15px;
+}
+.pr20 {
+	padding-right: 20px;
+}
+.pr30 {
+	padding-right: 30px;
+}
+.pr50 {
+	padding-right: 50px;
+}
+/* ========================== end 共用基础样式  ========================== */
+
+
+/* ========================== 公共静态样式  ========================== */
+.ui-button * {
+    margin:0;
+    padding:0;
+}
+
+.ui-button {
+    display: inline-block;
+    *display: inline;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0 20px;
+    /* font-weight: bold; */
+    *zoom: 1;
+    *overflow: visible; /* for a ie6/7 bug http://blog.csdn.net/jyy_12/article/details/6636099 */    
+}
+
+.ui-button:hover {
+    text-decoration: none;    
+}
+
+.ui-button-first {
+       border: none;
+    color: white;
+    background-color: #ff9900;
+    height: 32px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 32px;
+}
+
+	/*无背景色一级按钮+jiangly*/
+.ui-button-first-s {
+    
+    color: ff9900;
+    background-color: #fff;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0 20px;
+    border:1px #ff9900 solid;
+    line-height: 30px;
+}
+
+	/*二级按钮*/
+.ui-button-second {
+    color: #ff9900;
+    border: 1px solid #ff9900;
+    height: 28px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 20px;
+    line-height: 28px;
+    background-color: white;
+}
+.ui-button-disable {
+	background-color: #ccc;
+	color: white;
+	border: none;
+}
+/* ========================== end 按钮静态样式  ========================== */
+
+/*============================ input样式===============================*/
+.ui-input {
+	border: 1px solid #ccc;
+}
+.ui-input-disabled {
+	background-color: #ccc;
+	border: 1px solid #ccc;
+}
+.ui-input,.ui-input-disabled {
+	height: 28px;
+	width: 128px;
+	text-indent: 5px;
+}
+/*========================end=====================================*/
+
+/*=============================table样式===========================*/
+.ui-table {
+	border: 1px solid #e2e2e2;
+	width: 700px;
+	color: #333;
+	text-align: left;
+}
+.ui-table td,.ui-table th {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #e2e2e2;
+	text-align: left;
+	vertical-align: middle;
+}
+.ui-table thead {
+	background-color: #e2e2e2;
+	font-size: 14px;
+}
+.ui-table tbody {
+	font-size: 12px;	
+}	
+.ui-table tr {
+	height:30px;
+}
+
+
+
+/* 弹层样式 */
+.tip-body {
+	position:absolute;
+	min-height: 60px;
+	min-width:250px;
+	background: #000000;
+	opacity: 0.6;
+	z-index: 5555;
+	text-align: center;
+	border-radius : 6px;
+}
+.tip-body-message {
+	color:white;
+	padding: 10px;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
